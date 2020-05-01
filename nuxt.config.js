@@ -60,11 +60,11 @@ export default {
    */
    axios: {
     proxy: true , // 追加
-    prefix: '/api',
+    prefix: '/',
    },
    proxy: {
-    '/api': {
-      target: '//haleru-laravel-api.herokuapp.com/api',
+    '/': {
+      target: 'http://haleru-laravel-api.herokuapp.com/api',
       pathRewrite: {
         '^/api': '/'
       }
