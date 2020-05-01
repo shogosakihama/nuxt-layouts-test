@@ -11,7 +11,7 @@ const axios = require("axios");
 
 export default {
     async asyncData({ app }) {
-        const data = await app.$axios.$get(`/hello`)
+        const data = await app.$axios.$get(`/`)
 
         return { data };
     }
