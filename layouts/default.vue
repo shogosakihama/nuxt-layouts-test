@@ -40,15 +40,15 @@
                             class="dropdown-list"
                         >Balance</li>
                         <li
-                            @click="$router.push('/hello')"
+                            @click="$router.push('/axios-get')"
                             v-on:click="isActive = !isActive"
                             class="dropdown-list"
-                        >Hello</li>
-                        <li
+                        >Axios-get</li>
+                        <!-- <li
                             @click="$router.push('/progateEasy')"
                             v-on:click="isActive = !isActive"
                             class="dropdown-list"
-                        >Progate</li>
+                        >Progate</li> -->
                     </ul>
                 </div>
             </template>
