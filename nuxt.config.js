@@ -65,6 +65,7 @@ export default {
    proxy: {
     '/api': {
       target: 'https://nuxt-layouts-cssgrid.herokuapp.com/hello',
+      target: 'https://nuxt-layouts-cssgrid.herokuapp.com/gridLayout',
       pathRewrite: {
         '^/api': '/'
       }
