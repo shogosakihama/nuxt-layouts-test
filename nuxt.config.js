@@ -70,7 +70,6 @@ export default {
       }
     }
   },
-  
    styleResources: {
      scss: [
        '@/assets/sass/app.scss'

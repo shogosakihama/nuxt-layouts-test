@@ -11,8 +11,7 @@ const axios = require("axios");
 
 export default {
     async asyncData({ app }) {
-        const data = await app.$axios.$get(`https://haleru-laravel-api.herokuapp.com/api`)
-                     console.log("1");
+        const data = await app.$axios.$get(`/hello`)
 
         return { data };
     }
