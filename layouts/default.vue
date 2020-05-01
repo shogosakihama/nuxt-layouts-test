@@ -64,12 +64,6 @@ export default {
             isActive: false
         };
     },
-    async asyncData({ app }) {
-        const data = await app.$axios.$get(`https://haleru-laravel-api.herokuapp.com/api`)
-                     console.log("1");
-
-        return { data };
-    }
 };
 </script>
 

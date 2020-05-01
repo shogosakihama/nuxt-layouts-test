@@ -64,8 +64,7 @@ export default {
    },
    proxy: {
     '/api': {
-      target: 'https://nuxt-layouts-cssgrid.herokuapp.com/hello',
-      target: 'https://nuxt-layouts-cssgrid.herokuapp.com/gridLayout',
+      target: 'https://haleru-laravel-api.herokuapp.com/api',
       pathRewrite: {
         '^/api': '/'
       }
