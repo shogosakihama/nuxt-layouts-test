@@ -64,7 +64,7 @@ export default {
    },
    proxy: {
     '/api': {
-      target: 'http://haleru-laravel-api.herokuapp.com/api',
+      target: '//haleru-laravel-api.herokuapp.com/api',
       pathRewrite: {
         '^/api': '/'
       }
