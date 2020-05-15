@@ -39,11 +39,11 @@
                             v-on:click="isActive = !isActive"
                             class="dropdown-list"
                         >Balance</li>
-                        <li
+                        <a
                             @click="$router.push('/axios-get')"
                             v-on:click="isActive = !isActive"
                             class="dropdown-list"
-                        >Axios-get</li>
+                        >Axios-get</a>
                         <!-- <li
                             @click="$router.push('/progateEasy')"
                             v-on:click="isActive = !isActive"
